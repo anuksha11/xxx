@@ -6,23 +6,23 @@
 - **Zegocloud**: A real-time audio and video communication service used for video conferencing.
 - **Node.js**: For backend development.
 - **CSS**: Styling framework
-- **Socket.io**: A library enabling real-time, bidirectional communication between clients and servers.
+- **Socket.io**: For bidirectional communication between clients and servers.
 
 ## Modules
 
 - **video_conferencing**: Contains code for the video conferencing part of our application.
 - **collaborative_editor_sample_2**: Contains code for the collaborative code editor and compiler.
 
-## How to Use the Application
+### How to Use the Application
 
-### 1. Download the Zip File
+1. Download the Zip File
 
-```bash
-# Navigate to the project directory
-cd VHire-iteration-1
-```
+2. Navigate to the project directory
+   ```bash
+   cd VHire-iteration-1
+   ```
 
-## Steps to Run the Video Conferencing Application
+### Installation and Setup
 
 1. Navigate to the `video_conferencing` directory:
    ```bash
