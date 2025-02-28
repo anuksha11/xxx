@@ -13,7 +13,7 @@
 - **video_conferencing**: Contains code for the video conferencing part of our application.
 - **collaborative_editor_sample_2**: Contains code for the collaborative code editor and compiler.
 
-## How to Use the Application
+## Installation and Setup
 
 1. Download the Zip File
 
@@ -22,7 +22,7 @@
    cd VHire-iteration-1
    ```
 
-### Installation and Setup
+### Steps to Run the Video Conferencing Application
 
 1. Navigate to the `video_conferencing` directory:
    ```bash
