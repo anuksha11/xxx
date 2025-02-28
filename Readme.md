@@ -5,7 +5,7 @@
 - **React.js**: For the frontend framework
 - **Zegocloud**: A real-time audio and video communication service used for video conferencing.
 - **Node.js**: For backend development.
-- **CSS**: Styling framework
+- **Tailwind CSS**: Styling framework
 - **Socket.io**: For bidirectional communication between clients and servers.
 
 ## Modules
