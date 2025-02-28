@@ -59,10 +59,10 @@ Many companies face challenges in conducting interviews, as their tech teams are
    npm install
    ```
 6. Run the frontend:
-```bash
-cd collaborative-editor
-npm run dev  # Repeat the steps 1-6 to open two different frontend instances
-```
+   ```bash
+   cd collaborative-editor
+   npm run dev  # Repeat the steps 2-6 to open two different frontend instances
+   ```
 7. Run the backend:
    ```bash
    #open a new termina
