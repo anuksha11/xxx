@@ -47,7 +47,7 @@ Many companies face challenges in conducting interviews, as their tech teams are
    cd collaborative_editor_sample_2
    ```
   
-3. Install the dependencies for front end:
+3. Install the dependencies:
    ```bash
    npm install
    ```
@@ -55,7 +55,7 @@ Many companies face challenges in conducting interviews, as their tech teams are
    ```bash
    cd collaborative-editor
    ```
-5. Install the dependencies for backend:
+5. Install the dependencies:
    ```bash
    npm install
    ```
@@ -69,7 +69,7 @@ Many companies face challenges in conducting interviews, as their tech teams are
    cd collaborative_editor_sample_2 
    node server.js
    ```
-9. Open the application in your browser:
+8. Open the application in your browser:
    ```
    http://localhost:5173
    http://localhost:5174
