@@ -13,7 +13,7 @@
 - **video_conferencing**: Contains code for the video conferencing part of our application.
 - **collaborative_editor_sample_2**: Contains code for the collaborative code editor and compiler.
 
-### How to Use the Application
+## How to Use the Application
 
 1. Download the Zip File
 
