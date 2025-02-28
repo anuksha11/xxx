@@ -20,6 +20,7 @@
 
 ### Steps to Run the Video Conferencing Application
 1. Download the Zip File
+
 2. Navigate to the `video_conferencing` directory:
    ```bash
    cd video_conferencing
@@ -39,6 +40,7 @@
 
 ### Steps to Run the Collaborative Code Editor Application
 1. Download the Zip File
+
 2. Navigate to the `collaborative_editor_sample_2` directory:
    ```bash
    cd collaborative_editor_sample_2
