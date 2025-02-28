@@ -1,6 +1,6 @@
-# VHire-iteration-1
-Many companies face challenges in conducting interviews, as their tech teams are often engaged in the interview process voluntarily, which can lead to vague and inconsistent interviews and requires too much of their bandwidth for this. To address this, we propose developing software that outsources the first or technical round of interviews. This solution will benefit both candidates and companies by offering a seamless interview experience for applicants while making it easier for companies to shortlist candidates.
-Additionally, it will significantly reduce the effort required from engineering teams during the technical round of the hiring process.
+# VHire
+Many companies face challenges in conducting interviews, as their tech teams are often engaged in the interview process voluntarily, which can lead to vague and inconsistent interviews and requires too much of their bandwidth for this. To address this, we propose developing software that outsources the first or technical round of interviews. This solution will benefit both candidates and companies by offering a seamless interview experience for applicants while making it easier for companies to shortlist candidates.Additionally, it will significantly reduce the effort required from engineering teams during the technical round of the hiring process.
+
 ## Technologies Used
 
 - **React.js**: For the frontend framework
