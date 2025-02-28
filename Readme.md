@@ -65,7 +65,7 @@ Many companies face challenges in conducting interviews, as their tech teams are
    ```
 7. Run the backend:
    ```bash
-   #open a new termina
+   #open a new terminal
    cd collaborative_editor_sample_2
    node server.js
    ```
