@@ -46,20 +46,30 @@ Many companies face challenges in conducting interviews, as their tech teams are
    ```bash
    cd collaborative_editor_sample_2
    ```
-3. Install the dependencies:
+3. Install the dependencies for front end:
    ```bash
    npm install
    ```
-4. Run the frontend:
+4. Navigate to the front-end folder:
    ```bash
    cd collaborative-editor
-   npm run dev  # Run again to open two different frontend instances
    ```
-5. Run the backend:
+5. Install the dependencies for backend:
    ```bash
+   npm install
+   ```
+6. Run the frontend:
+```bash
+cd collaborative-editor
+npm run dev  # Repeat the steps 1-6 to open two different frontend instances
+```
+7. Run the backend:
+   ```bash
+   #open a new termina
+   cd collaborative_editor_sample_2
    node server.js
    ```
-6. Open the application in your browser:
+9. Open the application in your browser:
    ```
    http://localhost:5173
    http://localhost:5174
