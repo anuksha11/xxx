@@ -43,9 +43,8 @@ Many companies face challenges in conducting interviews, as their tech teams are
 1. Download the Zip File
 
 2. Navigate to the `collaborative_editor_sample_2` directory:
-   ```bash
-   cd collaborative_editor_sample_2
-   ```
+   open a new terminal in the  collaborative_editor_sample_2 directory
+  
 3. Install the dependencies for front end:
    ```bash
    npm install
@@ -61,12 +60,11 @@ Many companies face challenges in conducting interviews, as their tech teams are
 6. Run the frontend:
    ```bash
    cd collaborative-editor
-   npm run dev  # Repeat the steps 2,4,6 in another terminal to open two different frontend instances
+   npm run dev  # Repeat the steps 2,4,6 to open two different frontend instances
    ```
 7. Run the backend:
    ```bash
-   #open a new terminal
-   cd collaborative_editor_sample_2
+   #open a new terminal in collaborative_editor_sample_2 directory
    node server.js
    ```
 9. Open the application in your browser:
