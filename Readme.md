@@ -35,23 +35,28 @@ Many companies face challenges in conducting interviews, as their tech teams are
    
 ## Steps to run the application
 ### Steps to run the backend:
-1. ```bash
+1. Clone the github repo:
+   ```bash
    git clone https://github.com/anuksha11/VHire.git
    ```
-2. ```bash
+2. Change Directory:
+   ```bash
    cd VHire
    ```
-3. ```bash
+3. Change the branch:
+   ```bash
    git checkout iteration-2
    ```
-4. To change the directory
+4. To change the directory:
    ```bash
-   cd vhire-it-1 (change directotry)
+   cd vhire-it-1 
    ```
-5. ```bash
+5. To change the directory:
+   ```bash
    cd backend
    ```   
-6. ```bash
+6. Install the dependencies:
+   ```bash
    npm install (to install all node modules)
    ```
 7. Create a .env file in the backend directory.
