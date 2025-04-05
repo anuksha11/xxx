@@ -8,69 +8,78 @@ Many companies face challenges in conducting interviews, as their tech teams are
 - **Node.js**: For backend development.
 - **Tailwind CSS**: Styling framework
 - **Socket.io**: For bidirectional communication between clients and servers.
+- **FireBase** : Database
 
 ## Modules
 
-- **video_conferencing**: Contains code for the video conferencing part of our application.
-- **collaborative_editor_sample_2**: Contains code for the collaborative code editor and compiler.
+## Features:
 
-## Installation and Setup
-### Prerequisites
-1. Node.js v20.10.0+ installed in your system
+1. **User Authentication** – Secure login and registration for candidates, companies, and admins.
+2. **Company Registration** – Companies can register, post job openings, and view a filtered list of candidates.
+3. **Candidate Management** – Companies can shortlist and access candidate profiles and resumes.
+4. **Collaborative Code Editor and Compiler** – In-browser coding rounds powered by a One Compiler and Code Mirror API .
+5. **Chatbot** - Chatbot to help assist the interviewers.
+6. **Video Conferencing Engine** – Seamless video interviews using the Zego Cloud API.
+7. **Report Generation** by the Interviewer
+
+## How to use the apis:
+### Gemini API:
+1. Open the link "https://aistudio.google.com/u/1/apikey" and signup with your gmail.
+2. Click on Create API Key
+3. Copy the API Key
+   
+### One Compiler API:
+1. Open "https://rapidapi.com" in your browser and signup with your gmail.
+2. In the "Search APIs" button type One Compiler APIs and select the api.
+3. Copy the "X-RapidAPI-Key"
+   
+## Steps to run the application
+### Steps to run the backend:
+1. ```bash
+   git clone https://github.com/anuksha11/VHire.git
+   ```
+2. ```bash
+   cd VHire
+   ```
+3. ```bash
+   git checkout iteration-2
+   ```
+4. To change the directory
+   ```bash
+   cd vhire-it-1 (change directotry)
+   ```
+5. ```bash
+   cd backend
+   ```   
+6. ```bash
+   npm install (to install all node modules)
+   ```
+7. Create a .env file in the backend directory.
+8. Paste the following in the .env file(paste your gemini and one compiler api keys along with this)
+   ```
+   GOOGLE_GENAI_API_KEY=
+   RAPIDAPI_KEY=
+   RAPIDAPI_HOST=onecompiler-apis.p.rapidapi.com
+   ONE_COMPILER_API_URL=https://onecompiler-apis.p.rapidapi.com/api/v1/run
+   ```
+9. Run the command:
+   ```bash
+   npm start (to run the backend)
+   ```
+
+### Open new Terminal(For Running Frontend):
+1. 
+   ```bash
+   cd vhire-it-1 (change directotry)
+   ```
+3. ```bash
+   cd vhire-interview-platform
+   ```
+4. ```bash
+   npm install (to install all node modules)
+   ```
+5. ```bash
+   npm start (to run the frontend)
+   ```
 
 
-### Steps to Run the Video Conferencing Application
-1. Download the Zip File
-
-2. Navigate to the `video_conferencing` directory:
-   ```bash
-   cd video_conferencing
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open the application in your browser:
-   ```
-   http://localhost:3000
-   ```
-
-### Steps to Run the Collaborative Code Editor Application
-1. Download the Zip File
-
-2. Navigate to the `collaborative_editor_sample_2` directory:
-   ```bash
-   cd collaborative_editor_sample_2
-   ```
-  
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Navigate to the front-end folder:
-   ```bash
-   cd collaborative-editor
-   ```
-5. Install the dependencies:
-   ```bash
-   npm install
-   ```
-6. Run the frontend:
-   ```bash
-   npm run dev  # Repeat the steps 2,4,6 in a new terminal to open two different frontend instances
-   ```
-7. Run the backend:
-   ```bash
-   #open a new terminal
-   cd collaborative_editor_sample_2 
-   node server.js
-   ```
-8. Open the application in your browser:
-   ```
-   http://localhost:5173
-   http://localhost:5174
-   ```
