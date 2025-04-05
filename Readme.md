@@ -10,6 +10,16 @@ Many companies face challenges in conducting interviews, as their tech teams are
 - **Socket.io**: For bidirectional communication between clients and servers.
 - **FireBase** : Database
 
+## Features:
+
+1. **User Authentication** – Secure login and registration for candidates, companies, and admins.
+2. **Company Registration** – Companies can register, post job openings, and view a filtered list of candidates.
+3. **Candidate Management** – Companies can shortlist and access candidate profiles and resumes.
+4. **Collaborative Code Editor and Compiler** – In-browser coding rounds powered by a One Compiler and Code Mirror API .
+5. **Chatbot** - Chatbot to help assist the interviewers.
+6. **Video Conferencing Engine** – Seamless video interviews using the Zego Cloud API.
+7. **Report Generation** by the Interviewer
+
 ## Modules
 The project is divided into two main parts:
 
@@ -75,17 +85,6 @@ Components used by interviewers:
   - Socket.io integration for real-time code sharing
   - AI Chatbot assistant
   - Video Conferencing Engine
-
-
-## Features:
-
-1. **User Authentication** – Secure login and registration for candidates, companies, and admins.
-2. **Company Registration** – Companies can register, post job openings, and view a filtered list of candidates.
-3. **Candidate Management** – Companies can shortlist and access candidate profiles and resumes.
-4. **Collaborative Code Editor and Compiler** – In-browser coding rounds powered by a One Compiler and Code Mirror API .
-5. **Chatbot** - Chatbot to help assist the interviewers.
-6. **Video Conferencing Engine** – Seamless video interviews using the Zego Cloud API.
-7. **Report Generation** by the Interviewer
 
 ## How to use the apis:
 ### Gemini API:
