@@ -11,6 +11,71 @@ Many companies face challenges in conducting interviews, as their tech teams are
 - **FireBase** : Database
 
 ## Modules
+The project is divided into two main parts:
+
+### 📦 1. `backend/`
+
+This directory contains the backend logic for the platform. It manages api calls.
+
+---
+
+### 💻 2. `vhire-interview-platform/`
+
+This directory contains the frontend codebase built using **React + TypeScript**. It includes components and pages for candidates, companies, and interviewers.
+#### 📁 `src/services`:
+Handles user authentication and profile management using Firebase Authentication and Firestore. It includes methods for user registration, login, profile updates, and logout.
+#### 📁 `src/context`:
+Provides a centralized way to manage user login/logout state across the app using Context API, including saving the user to localStorage so they stay logged in across page reloads.
+
+#### 📁 `src/components/`
+
+##### 🔹 `candidate/`
+Components specific to candidates:
+- View the dashboard of the candidate
+- Join interview rooms
+
+
+##### 🔹 `company/`
+- Schedule interviews
+- View and manage interview reports
+- Manage rooms and candidate assignments
+
+##### 🔹 `interviewer/`
+Components used by interviewers:
+- Conduct live interviews
+- Submit reports with scoring and verdicts
+- Access candidate details
+
+#####  Top-Level Components
+
+- **`Header.tsx`**  
+  Navigation bar component shared across all pages.
+
+- **`Home.tsx`**  
+  Landing page with an overview.
+
+- **`Login.tsx`**  
+  User login component. Supports all user types (candidate, company, interviewer).
+
+- **`Profile.tsx`**  
+  User profile page. Allows updating user-specific information.
+
+- **`ProtectedRoute.tsx`**  
+  Wrapper component to restrict access to routes for unauthenticated users.
+
+- **`Register.tsx`**  
+  Registration page for all roles. Sends form data to backend for account creation.
+
+- **`Report.tsx`**  
+  Interview report form for interviewers to score and give verdicts on candidates.
+
+- **`RoomPage.tsx`**  
+  Real-time collaborative interview room with:
+  - Code editor (CodeMirror)
+  - Socket.io integration for real-time code sharing
+  - AI Chatbot assistant
+  - Video Conferencing Engine
+
 
 ## Features:
 
