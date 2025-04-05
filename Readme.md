@@ -84,7 +84,7 @@ Components used by interviewers:
   - Code editor (CodeMirror)
   - Socket.io integration for real-time code sharing
   - AI Chatbot assistant
-  - Video Conferencing Engine
+  - Video Conferencing Engine using zegocloud api
 
 ## How to use the apis:
 ### Gemini API:
